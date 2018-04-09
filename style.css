@@ -1,0 +1,53 @@
+
+body {
+    background-color: white;
+}
+.image1-text{
+    position: absolute;
+    bottom: 350px;
+    left: 200px;
+}
+.image1 {
+    background: url('img1.jpg');
+    background-size: cover;
+    height: 90vh;
+    background-attachment: fixed;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+
+
+
+}
+.overlay {
+    background: rgba(18, 18, 18, 0.37);
+    width: 100%;
+    height: 100%;
+
+}
+
+.image2 {
+    background: url('img2.jpg');
+    background-size: cover;
+    height: 90vh;
+    background-attachment: fixed;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+.dark-overlay {
+    background: rgba(18, 18, 18, 0.37);
+    width: 100%;
+    height: 100%;
+}
+.about-text {
+    text-align: center;
+}
+.col-sm-7{
+
+    text-align: right;
+}
